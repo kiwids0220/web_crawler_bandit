@@ -1,0 +1,9 @@
+<div><p>Good job getting a shell! Now hurry and grab the password for bandit27!</p>
+
+<h2 id="commands-you-may-need-to-solve-this-level">Commands you may need to solve this level</h2>
+<p>ls</p>
+
+</div>
+
+
+credit:[OverTheWire](https://overthewire.org/wargames/bandit/)

@@ -1,0 +1,12 @@
+<div><p>The password for the next level is stored in the file <strong>data.txt</strong>
+in one of the few human-readable strings, preceded by several ‘=’
+characters.</p>
+
+<h2 id="commands-you-may-need-to-solve-this-level">Commands you may need to solve this level</h2>
+<p>grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd</p>
+
+
+</div>
+
+
+credit:[OverTheWire](https://overthewire.org/wargames/bandit/)

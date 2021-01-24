@@ -1,0 +1,13 @@
+<div><p>The password for the next level is stored in a file called
+<strong>readme</strong> located in the home directory. Use this password to log
+into bandit1 using SSH. Whenever you find a password for a level,
+use SSH (on port 2220) to log into that level and continue the game.</p>
+
+<h2 id="commands-you-may-need-to-solve-this-level">Commands you may need to solve this level</h2>
+<p>ls, cd, cat, file, du, find</p>
+
+
+</div>
+
+
+credit:[OverTheWire](https://overthewire.org/wargames/bandit/)

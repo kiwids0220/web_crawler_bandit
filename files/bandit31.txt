@@ -1,0 +1,12 @@
+<div><p>There is a git repository at <code class="language-plaintext highlighter-rouge">ssh://<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="3456555a505d40070419535d4074585b5755585c5b4740">bandit30-git@localhost</a>/home/bandit30-git/repo</code>. The password for the user <code class="language-plaintext highlighter-rouge">bandit30-git</code> is the same as for the user <code class="language-plaintext highlighter-rouge">bandit30</code>.</p>
+
+<p>Clone the repository and find the password for the next level.</p>
+
+<h2 id="commands-you-may-need-to-solve-this-level">Commands you may need to solve this level</h2>
+<p>git</p>
+
+
+</div>
+
+
+credit:[OverTheWire](https://overthewire.org/wargames/bandit/)

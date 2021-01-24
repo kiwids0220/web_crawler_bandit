@@ -54,20 +54,19 @@ def regexeverything(html):
     return p_string
 
 def main():
-    f = open('bandit_markup.txt', 'a')
 
-    for i in range(0,35):
+    for i in range(0,34):
+        f = open('./files/bandit{}.txt'.format(str(i)), 'a')
+
         url= 'https://overthewire.org/wargames/bandit/bandit' +str(i) + '.html'
         html = getHTMLText(url)
-        f.write('Bandit Level ' + str(i)+'\n\n')
+        #f.write('Bandit  Level' + str(i)+'\n\n')
         f.write('<div>')
         p_string=regexeverything(html)
         f.write(p_string)
         f.write('\n')
-
-
-
-    f.close()     
+        f.write("credit:[OverTheWire](https://overthewire.org/wargames/bandit/)")
+        f.close()     
 
     
 main()
