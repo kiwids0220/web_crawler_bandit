@@ -10,8 +10,8 @@ data={"name":"",
 "value":"1",
 "state":"visible",
 "type":"standard"}
-cookies = {'CSRF-Token':'6bf8c1cdf9a88b3106a2d973246467a741bfbcb7cc41609863ed401aaef8ee2c',
-'Cookie':'session=f3efe9db-ea4d-4c9c-b716-69dc51498002.ckQgoSDFg-r6YW3xMUiKNTbBNk4', 
+cookies = {'CSRF-Token':'blurrrrrrrrrrrrrrrrrrrrrr',
+'Cookie':'blurrrrrrrrr', 
 'Content-Type':'application/json',
 'User-Agent':'Mozilla/5.0 (X11; Linux x86_64; rv:84.0) Gecko/20100101 Firefox/84.0'}
 
@@ -32,7 +32,7 @@ for i in range(21,34):
         if i >31 and i <=33:
             data['value'] = 7
         r= requests.post(
-               'http://134.122.11.63/api/v1/challenges', headers=cookies, json=data)
+               'urlurlurlurlurl', headers=cookies, json=data)
         print(r.text)
 
 
