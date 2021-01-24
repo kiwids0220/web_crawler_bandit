@@ -1,0 +1,549 @@
+Bandit Level 0
+
+<div><p>The goal of this level is for you to log into the game using SSH.
+The host to which you need to connect is
+<strong>bandit.labs.overthewire.org</strong>, on port 2220.
+The username is <strong>bandit0</strong> and the password is <strong>bandit0</strong>. Once
+logged in, go to the <a href="/wargames/bandit/bandit1.html">Level 1</a> page to find out how to beat Level
+1.</p>
+
+<h2 id="commands-you-may-need-to-solve-this-level">Commands you may need to solve this level</h2>
+<p>ssh</p>
+
+<h2 id="helpful-reading-material">Helpful Reading Material</h2>
+<ul>
+  <li><a href="https://en.wikipedia.org/wiki/Secure_Shell">Secure Shell (SSH) on Wikipedia</a></li>
+  <li><a href="https://www.wikihow.com/Use-SSH">How to use SSH on wikiHow</a></li>
+</ul>
+
+
+</div>
+
+
+Bandit Level 1
+
+<div><p>The password for the next level is stored in a file called
+<strong>readme</strong> located in the home directory. Use this password to log
+into bandit1 using SSH. Whenever you find a password for a level,
+use SSH (on port 2220) to log into that level and continue the game.</p>
+
+<h2 id="commands-you-may-need-to-solve-this-level">Commands you may need to solve this level</h2>
+<p>ls, cd, cat, file, du, find</p>
+
+
+</div>
+
+
+Bandit Level 2
+
+<div><p>The password for the next level is stored in a file called <strong>-</strong>
+located in the home directory</p>
+
+<h2 id="commands-you-may-need-to-solve-this-level">Commands you may need to solve this level</h2>
+<p>ls, cd, cat, file, du, find</p>
+
+<h2 id="helpful-reading-material">Helpful Reading Material</h2>
+<ul>
+  <li><a href="https://www.google.com/search?q=dashed+filename">Google Search for “dashed filename”</a></li>
+  <li><a href="http://tldp.org/LDP/abs/html/special-chars.html">Advanced Bash-scripting Guide - Chapter 3 - Special Characters</a></li>
+</ul>
+
+
+</div>
+
+
+Bandit Level 3
+
+<div><p>The password for the next level is stored in a file called <strong>spaces
+in this filename</strong> located in the home directory</p>
+
+<h2 id="commands-you-may-need-to-solve-this-level">Commands you may need to solve this level</h2>
+<p>ls, cd, cat, file, du, find</p>
+
+<h2 id="helpful-reading-material">Helpful Reading Material</h2>
+<ul>
+  <li><a href="https://www.google.com/search?q=spaces+in+filename">Google Search for “spaces in filename”</a></li>
+</ul>
+
+
+</div>
+
+
+Bandit Level 4
+
+<div><p>The password for the next level is stored in a hidden file in the
+<strong>inhere</strong> directory.</p>
+
+<h2 id="commands-you-may-need-to-solve-this-level">Commands you may need to solve this level</h2>
+<p>ls, cd, cat, file, du, find</p>
+
+
+</div>
+
+
+Bandit Level 5
+
+<div><p>The password for the next level is stored in the only human-readable
+file in the <strong>inhere</strong> directory. Tip: if your terminal is messed
+up, try the “reset” command.</p>
+
+<h2 id="commands-you-may-need-to-solve-this-level">Commands you may need to solve this level</h2>
+<p>ls, cd, cat, file, du, find</p>
+
+
+</div>
+
+
+Bandit Level 6
+
+<div><p>The password for the next level is stored in a file somewhere under
+the <strong>inhere</strong> directory and has all of the following properties:</p>
+<ul>
+  <li>human-readable</li>
+  <li>1033 bytes in size</li>
+  <li>not executable</li>
+</ul>
+
+<h2 id="commands-you-may-need-to-solve-this-level">Commands you may need to solve this level</h2>
+<p>ls, cd, cat, file, du, find</p>
+
+
+</div>
+
+
+Bandit Level 7
+
+<div><p>The password for the next level is stored <strong>somewhere on the
+server</strong> and has all of the following properties:</p>
+<ul>
+  <li>owned by user bandit7</li>
+  <li>owned by group bandit6</li>
+  <li>33 bytes in size</li>
+</ul>
+
+<h2 id="commands-you-may-need-to-solve-this-level">Commands you may need to solve this level</h2>
+<p>ls, cd, cat, file, du, find, grep</p>
+
+
+</div>
+
+
+Bandit Level 8
+
+<div><p>The password for the next level is stored in the file <strong>data.txt</strong>
+next to the word <strong>millionth</strong></p>
+
+<h2 id="commands-you-may-need-to-solve-this-level">Commands you may need to solve this level</h2>
+<p>grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd</p>
+
+</div>
+
+
+Bandit Level 9
+
+<div><p>The password for the next level is stored in the file <strong>data.txt</strong>
+and is the only line of text that occurs only once</p>
+
+<h2 id="commands-you-may-need-to-solve-this-level">Commands you may need to solve this level</h2>
+<p>grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd</p>
+
+<h2 id="helpful-reading-material">Helpful Reading Material</h2>
+<ul>
+  <li><a href="https://ryanstutorials.net/linuxtutorial/piping.php">Piping and Redirection</a></li>
+</ul>
+
+
+</div>
+
+
+Bandit Level 10
+
+<div><p>The password for the next level is stored in the file <strong>data.txt</strong>
+in one of the few human-readable strings, preceded by several ‘=’
+characters.</p>
+
+<h2 id="commands-you-may-need-to-solve-this-level">Commands you may need to solve this level</h2>
+<p>grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd</p>
+
+
+</div>
+
+
+Bandit Level 11
+
+<div><p>The password for the next level is stored in the file <strong>data.txt</strong>,
+which contains base64 encoded data</p>
+
+<h2 id="commands-you-may-need-to-solve-this-level">Commands you may need to solve this level</h2>
+<p>grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd</p>
+
+<h2 id="helpful-reading-material">Helpful Reading Material</h2>
+<ul>
+  <li><a href="https://en.wikipedia.org/wiki/Base64">Base64 on Wikipedia</a></li>
+</ul>
+
+
+</div>
+
+
+Bandit Level 12
+
+<div><p>The password for the next level is stored in the file <strong>data.txt</strong>,
+where all lowercase (a-z) and uppercase (A-Z) letters have been
+rotated by 13 positions</p>
+
+<h2 id="commands-you-may-need-to-solve-this-level">Commands you may need to solve this level</h2>
+<p>grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd</p>
+
+<h2 id="helpful-reading-material">Helpful Reading Material</h2>
+<ul>
+  <li><a href="https://en.wikipedia.org/wiki/Rot13">Rot13 on Wikipedia</a></li>
+</ul>
+
+
+</div>
+
+
+Bandit Level 13
+
+<div><p>The password for the next level is stored in the file <strong>data.txt</strong>,
+which is a hexdump of a file that has been repeatedly compressed.
+For this level it may be useful to create a directory under /tmp in
+which you can work using mkdir. For example: mkdir /tmp/myname123.
+Then copy the datafile using cp, and rename it using mv (read the
+manpages!)</p>
+
+<h2 id="commands-you-may-need-to-solve-this-level">Commands you may need to solve this level</h2>
+<p>grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd, mkdir,
+cp, mv, file</p>
+
+<h2 id="helpful-reading-material">Helpful Reading Material</h2>
+<ul>
+  <li><a href="https://en.wikipedia.org/wiki/Hex_dump">Hex dump on Wikipedia</a></li>
+</ul>
+
+
+</div>
+
+
+Bandit Level 14
+
+<div><p>The password for the next level is stored in
+<strong>/etc/bandit_pass/bandit14 and can only be read by user
+bandit14</strong>. For this level, you donâ€™t get the next password, but you
+get a private SSH key that can be used to log into the next level.
+<strong>Note:</strong> <strong>localhost</strong> is a hostname that refers to the machine
+you are working on</p>
+
+<h2 id="commands-you-may-need-to-solve-this-level">Commands you may need to solve this level</h2>
+<p>ssh, telnet, nc, openssl, s_client, nmap</p>
+
+<h2 id="helpful-reading-material">Helpful Reading Material</h2>
+<ul>
+  <li><a href="https://help.ubuntu.com/community/SSH/OpenSSH/Keys">SSH/OpenSSH/Keys</a></li>
+</ul>
+
+
+</div>
+
+
+Bandit Level 15
+
+<div><p>The password for the next level can be retrieved by submitting the
+password of the current level to <strong>port 30000 on localhost</strong>.</p>
+
+<h2 id="commands-you-may-need-to-solve-this-level">Commands you may need to solve this level</h2>
+<p>ssh, telnet, nc, openssl, s_client, nmap</p>
+
+<h2 id="helpful-reading-material">Helpful Reading Material</h2>
+<ul>
+  <li><a href="https://www.youtube.com/watch?v=7_LPdttKXPc">How the Internet works in 5 minutes (YouTube)</a> (Not completely
+accurate, but good enough for beginners)</li>
+  <li><a href="http://computer.howstuffworks.com/web-server5.htm">IP Addresses</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/IP_address">IP Address on Wikipedia</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Localhost">Localhost on Wikipedia</a></li>
+  <li><a href="http://computer.howstuffworks.com/web-server8.htm">Ports</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Port_(computer_networking)">Port (computer networking) on Wikipedia</a></li>
+</ul>
+
+
+</div>
+
+
+Bandit Level 16
+
+<div><p>The password for the next level can be retrieved by submitting the
+password of the current level to <strong>port 30001 on localhost</strong> using
+SSL encryption.</p>
+
+<p><strong>Helpful note: Getting “HEARTBEATING” and “Read R BLOCK”? Use
+-ign_eof and read the “CONNECTED COMMANDS” section in the manpage.
+Next to ‘R’ and ‘Q’, the ‘B’ command also works in this version of
+that command…</strong></p>
+
+<h2 id="commands-you-may-need-to-solve-this-level">Commands you may need to solve this level</h2>
+<p>ssh, telnet, nc, openssl, s_client, nmap</p>
+
+<h2 id="helpful-reading-material">Helpful Reading Material</h2>
+<ul>
+  <li><a href="https://en.wikipedia.org/wiki/Secure_Socket_Layer">Secure Socket Layer/Transport Layer Security on Wikipedia</a></li>
+  <li><a href="https://www.feistyduck.com/library/openssl-cookbook/online/ch-testing-with-openssl.html">OpenSSL Cookbook - Testing with OpenSSL</a></li>
+</ul>
+
+
+</div>
+
+
+Bandit Level 17
+
+<div><p>The credentials for the next level can be retrieved by submitting the
+password of the current level to <strong>a port on localhost in the range
+31000 to 32000</strong>. First find out which of these ports have a server
+listening on them. Then find out which of those speak SSL and which
+donâ€™t. There is only 1 server that will give the next credentials, the
+others will simply send back to you whatever you send to it.</p>
+
+<h2 id="commands-you-may-need-to-solve-this-level">Commands you may need to solve this level</h2>
+<p>ssh, telnet, nc, openssl, s_client, nmap</p>
+
+<h2 id="helpful-reading-material">Helpful Reading Material</h2>
+<ul>
+  <li><a href="https://en.wikipedia.org/wiki/Port_scanner">Port scanner on Wikipedia</a></li>
+</ul>
+
+
+</div>
+
+
+Bandit Level 18
+
+<div><p>There are 2 files in the homedirectory: <strong>passwords.old and
+passwords.new</strong>. The password for the next level is in
+<strong>passwords.new</strong> and is the only line that has been changed between
+<strong>passwords.old and passwords.new</strong></p>
+
+<p><strong>NOTE: if you have solved this level and see ‘Byebye!’ when trying
+to log into bandit18, this is related to the next level, bandit19</strong></p>
+
+<h2 id="commands-you-may-need-to-solve-this-level">Commands you may need to solve this level</h2>
+<p>cat, grep, ls, diff</p>
+
+
+</div>
+
+
+Bandit Level 19
+
+<div><p>The password for the next level is stored in a file <strong>readme</strong> in
+the homedirectory. Unfortunately, someone has modified <strong>.bashrc</strong>
+to log you out when you log in with SSH.</p>
+
+<h2 id="commands-you-may-need-to-solve-this-level">Commands you may need to solve this level</h2>
+<p>ssh, ls, cat</p>
+
+
+</div>
+
+
+Bandit Level 20
+
+<div><p>To gain access to the next level, you should use the setuid binary
+in the homedirectory. Execute it without arguments to find out how
+to use it. The password for this level can be found in the usual
+place (/etc/bandit_pass), after you have used the setuid binary.</p>
+
+<h2 id="helpful-reading-material">Helpful Reading Material</h2>
+<ul>
+  <li><a href="https://en.wikipedia.org/wiki/Setuid">setuid on Wikipedia</a></li>
+</ul>
+
+
+</div>
+
+
+Bandit Level 21
+
+<div><p>There is a setuid binary in the homedirectory that does the
+following: it makes a connection to localhost on the port you
+specify as a commandline argument. It then reads a line of text from
+the connection and compares it to the password in the previous level
+(bandit20). If the password is correct, it will transmit the
+password for the next level (bandit21).</p>
+
+<p><strong>NOTE:</strong> Try connecting to your own network daemon to see if it
+works as you think</p>
+
+<h2 id="commands-you-may-need-to-solve-this-level">Commands you may need to solve this level</h2>
+<p>ssh, nc, cat, bash, screen, tmux, Unix ‘job control’ (bg, fg, jobs, &amp;, CTRL-Z, …)</p>
+
+
+</div>
+
+
+Bandit Level 22
+
+<div><p>A program is running automatically at regular intervals from
+<strong>cron</strong>, the time-based job scheduler. Look in <strong>/etc/cron.d/</strong> for
+the configuration and see what command is being executed.</p>
+
+<h2 id="commands-you-may-need-to-solve-this-level">Commands you may need to solve this level</h2>
+<p>cron, crontab, crontab(5) (use “man 5 crontab” to access this)</p>
+
+
+</div>
+
+
+Bandit Level 23
+
+<div><p>A program is running automatically at regular intervals from
+<strong>cron</strong>, the time-based job scheduler. Look in <strong>/etc/cron.d/</strong> for
+the configuration and see what command is being executed.</p>
+
+<p><strong>NOTE:</strong> Looking at shell scripts written by other people is a
+very useful skill. The script for this level is intentionally made
+easy to read. If you are having problems understanding what it does,
+try executing it to see the debug information it prints.</p>
+
+<h2 id="commands-you-may-need-to-solve-this-level">Commands you may need to solve this level</h2>
+<p>cron, crontab, crontab(5) (use “man 5 crontab” to access this)</p>
+
+
+</div>
+
+
+Bandit Level 24
+
+<div><p>A program is running automatically at regular intervals from
+<strong>cron</strong>, the time-based job scheduler. Look in <strong>/etc/cron.d/</strong> for
+the configuration and see what command is being executed.</p>
+
+<p><strong>NOTE:</strong> This level requires you to create your own first
+shell-script. This is a very big step and you should be proud of
+yourself when you beat this level!</p>
+
+<p><strong>NOTE 2:</strong> Keep in mind that your shell script is removed once
+executed, so you may want to keep a copy around…</p>
+
+<h2 id="commands-you-may-need-to-solve-this-level">Commands you may need to solve this level</h2>
+<p>cron, crontab, crontab(5) (use “man 5 crontab” to access this)</p>
+
+
+</div>
+
+
+Bandit Level 25
+
+<div><p>A daemon is listening on port 30002 and will give you the password for
+bandit25 if given the password for bandit24 and a secret numeric 4-digit pincode.
+There is no way to retrieve the pincode except by going through all of the 10000
+combinations, called brute-forcing.</p>
+
+
+</div>
+
+
+Bandit Level 26
+
+<div><p>Logging in to bandit26 from bandit25 should be fairly easyâ€¦
+The shell for user bandit26 is not <strong>/bin/bash</strong>, but something else.
+Find out what it is, how it works and how to break out of it.</p>
+
+<h2 id="commands-you-may-need-to-solve-this-level">Commands you may need to solve this level</h2>
+<p>ssh, cat, more, vi, ls, id, pwd</p>
+
+
+</div>
+
+
+Bandit Level 27
+
+<div><p>Good job getting a shell! Now hurry and grab the password for bandit27!</p>
+
+<h2 id="commands-you-may-need-to-solve-this-level">Commands you may need to solve this level</h2>
+<p>ls</p>
+
+</div>
+
+
+Bandit Level 28
+
+<div><p>There is a git repository at <code class="language-plaintext highlighter-rouge">ssh://<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="f6949798929f82c4c1db919f82b69a9995979a9e998582">bandit27-git@localhost</a>/home/bandit27-git/repo</code>. The password for the user <code class="language-plaintext highlighter-rouge">bandit27-git</code> is the same as for the user <code class="language-plaintext highlighter-rouge">bandit27</code>.</p>
+
+<p>Clone the repository and find the password for the next level.</p>
+
+<h2 id="commands-you-may-need-to-solve-this-level">Commands you may need to solve this level</h2>
+<p>git</p>
+
+
+</div>
+
+
+Bandit Level 29
+
+<div><p>There is a git repository at <code class="language-plaintext highlighter-rouge">ssh://<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="dbb9bab5bfb2afe9e3f6bcb2af9bb7b4b8bab7b3b4a8af">bandit28-git@localhost</a>/home/bandit28-git/repo</code>. The password for the user <code class="language-plaintext highlighter-rouge">bandit28-git</code> is the same as for the user <code class="language-plaintext highlighter-rouge">bandit28</code>.</p>
+
+<p>Clone the repository and find the password for the next level.</p>
+
+<h2 id="commands-you-may-need-to-solve-this-level">Commands you may need to solve this level</h2>
+<p>git</p>
+
+
+</div>
+
+
+Bandit Level 30
+
+<div><p>There is a git repository at <code class="language-plaintext highlighter-rouge">ssh://<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="9cfefdf2f8f5e8aea5b1fbf5e8dcf0f3fffdf0f4f3efe8">bandit29-git@localhost</a>/home/bandit29-git/repo</code>. The password for the user <code class="language-plaintext highlighter-rouge">bandit29-git</code> is the same as for the user <code class="language-plaintext highlighter-rouge">bandit29</code>.</p>
+
+<p>Clone the repository and find the password for the next level.</p>
+
+<h2 id="commands-you-may-need-to-solve-this-level">Commands you may need to solve this level</h2>
+<p>git</p>
+
+
+</div>
+
+
+Bandit Level 31
+
+<div><p>There is a git repository at <code class="language-plaintext highlighter-rouge">ssh://<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="8fedeee1ebe6fbbcbfa2e8e6fbcfe3e0eceee3e7e0fcfb">bandit30-git@localhost</a>/home/bandit30-git/repo</code>. The password for the user <code class="language-plaintext highlighter-rouge">bandit30-git</code> is the same as for the user <code class="language-plaintext highlighter-rouge">bandit30</code>.</p>
+
+<p>Clone the repository and find the password for the next level.</p>
+
+<h2 id="commands-you-may-need-to-solve-this-level">Commands you may need to solve this level</h2>
+<p>git</p>
+
+
+</div>
+
+
+Bandit Level 32
+
+<div><p>There is a git repository at <code class="language-plaintext highlighter-rouge">ssh://<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="0567646b616c71363428626c7145696a6664696d6a7671">bandit31-git@localhost</a>/home/bandit31-git/repo</code>. The password for the user <code class="language-plaintext highlighter-rouge">bandit31-git</code> is the same as for the user <code class="language-plaintext highlighter-rouge">bandit31</code>.</p>
+
+<p>Clone the repository and find the password for the next level.</p>
+
+<h2 id="commands-you-may-need-to-solve-this-level">Commands you may need to solve this level</h2>
+<p>git</p>
+
+
+</div>
+
+
+Bandit Level 33
+
+<div><p>After all this <code class="language-plaintext highlighter-rouge">git</code> stuff its time for another escape. Good luck!</p>
+
+<h2 id="commands-you-may-need-to-solve-this-level">Commands you may need to solve this level</h2>
+<p>sh, man</p>
+
+</div>
+
+
+Bandit Level 34
+
+<div><p><strong>At this moment, level 34 does not exist yet.</strong></p>
+
+</div>
+
+

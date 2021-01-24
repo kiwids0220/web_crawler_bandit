@@ -56,7 +56,7 @@ def regexeverything(html):
 def main():
     f = open('bandit_markup.txt', 'a')
 
-    for i in range(28,32):
+    for i in range(0,35):
         url= 'https://overthewire.org/wargames/bandit/bandit' +str(i) + '.html'
         html = getHTMLText(url)
         f.write('Bandit Level ' + str(i)+'\n\n')
